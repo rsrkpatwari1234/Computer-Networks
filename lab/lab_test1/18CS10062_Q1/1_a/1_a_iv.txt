@@ -1,0 +1,28 @@
+
+For email 1 : (alice@iitkgp.ac.in -> bob@ulca.edu)
+
+source ip : 127.0.0.1
+destination ip : 127.0.0.1
+source port : 45792
+destination port : 25
+
+==============================================================
+
+For email 2 : (bob@ulca.edu -> alice@iitkgp.ac.in)
+
+source ip : 127.0.0.1
+destination ip : 127.0.0.1
+source port : 45794
+destination port : 25
+
+===============================================================
+
+Procedure : 
+
+I typed "smtp.req" in the display filter to get smtp requests
+The "Source" and "Destination"  columns already displayed the source and destination ip addresses
+I left double-clicked on the frame 661 and it showed the details
+Now I can see that "Internet Protocol Version 4" contained "Src" and "Dst" fields for source and destination ip values
+Also, "Transmission Control Protocol" contained "Src Port" and "Dst Port" for source and destination port number values respectively.
+
+Similarly I left-double-clicked on frame 1000 to get details of other email

@@ -1,0 +1,12 @@
+
+Number of  packets corresponding to SMTP : 28
+
+Procedure : 
+
+I put "smtp" in the display filter bar
+All packets of SMTP protocol are diplayed
+I went to "Statistics" in menu bar above and then selected "Capture File Properties"
+It showed the details of all packets and data
+So, it was given the 28 packets are displayed out of 5495 packets.
+
+The same data also appears at the last of my wireshark screen , so I also verified from there. 
